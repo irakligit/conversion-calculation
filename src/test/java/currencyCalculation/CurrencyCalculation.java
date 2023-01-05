@@ -1,9 +1,6 @@
 package currencyCalculation;
-
-import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Selenide;
 import io.qameta.allure.Description;
-import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import stepObjects.CalculationSteps;
@@ -41,7 +38,7 @@ public class CurrencyCalculation {
                 .clickFilterButton()
                 .theLossVisibilityAssert();
     }
-    @Test
+    @Test(priority = 4)
     @Description("When we press the clear filter, all fields should return to their default state")
     public void CheckingTheClearFilter(){
         calculationSteps.changeEurCurrency()

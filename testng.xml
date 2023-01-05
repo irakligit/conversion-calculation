@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test automation suite">
+
+    <test name="consents.ConsentCases">
+        <classes>
+            <class name="currencyCalculation.CurrencyCalculation"/>
+        </classes>
+    </test>
+
+</suite>
