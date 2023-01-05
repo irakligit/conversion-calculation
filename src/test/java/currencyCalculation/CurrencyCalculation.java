@@ -38,7 +38,7 @@ public class CurrencyCalculation {
                 .clickFilterButton()
                 .theLossVisibilityAssert();
     }
-    @Test(priority = 4)
+    @Test()
     @Description("When we press the clear filter, all fields should return to their default state")
     public void CheckingTheClearFilter(){
         calculationSteps.changeEurCurrency()
