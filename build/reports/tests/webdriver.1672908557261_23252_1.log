@@ -1,0 +1,196 @@
+[1672908558.499][INFO]: Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 17077
+[1672908558.499][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1672908559.015][INFO]: [8bab241fad0ee136a96cb5a0f45cdd18] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\IMamulashvili\\Desktop\\calculator\\calculator\\build\\downloads\\1672908556583_23252_1",
+               "plugins.always_open_pdf_externally": true,
+               "profile.default_content_setting_values.automatic_downloads": 1
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\IMamulashvili\\Desktop\\calculator\\calculator\\build\\downloads\\1672908556583_23252_1",
+            "plugins.always_open_pdf_externally": true,
+            "profile.default_content_setting_values.automatic_downloads": 1
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1672908559.105][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\IMamulashvili\\Desktop\\calculator\\calculator\\build\\downloads\\1672908556583_23252_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "automatic_downloads": 1,
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1672908559.111][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1672908559.131][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\IMAMUL~1\AppData\Local\Temp\scoped_dir26664_2066843193" data:,
+[1672908564.751][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1672908578.440][INFO]: [8bab241fad0ee136a96cb5a0f45cdd18] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "108.0.5359.125",
+      "chrome": {
+         "chromedriverVersion": "108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016})",
+         "userDataDir": "C:\\Users\\IMAMUL~1\\AppData\\Local\\Temp\\scoped_dir26664_2066843193"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:64561"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "8bab241fad0ee136a96cb5a0f45cdd18"
+}
+[1672908578.528][INFO]: [8bab241fad0ee136a96cb5a0f45cdd18] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1672908578.529][INFO]: Waiting for pending navigations...
+[1672908578.530][INFO]: Done waiting for pending navigations. Status: ok
+[1672908578.641][INFO]: Waiting for pending navigations...
+[1672908578.641][INFO]: Done waiting for pending navigations. Status: ok
+[1672908578.641][INFO]: [8bab241fad0ee136a96cb5a0f45cdd18] RESPONSE SetWindowRect {
+   "height": 738,
+   "width": 1298,
+   "x": 10,
+   "y": 10
+}
+[1672908578.647][INFO]: [8bab241fad0ee136a96cb5a0f45cdd18] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1672908578.647][INFO]: [8bab241fad0ee136a96cb5a0f45cdd18] RESPONSE SetTimeouts
+[1672908578.658][INFO]: [8bab241fad0ee136a96cb5a0f45cdd18] COMMAND Navigate {
+   "url": "https://www.paysera.bg/v2/en-LT/fees/currency-conversion-calculator"
+}
+[1672908578.658][INFO]: Waiting for pending navigations...
+[1672908578.659][INFO]: Done waiting for pending navigations. Status: ok
+[1672908584.641][INFO]: Waiting for pending navigations...
+[1672908591.890][INFO]: Done waiting for pending navigations. Status: ok
+[1672908591.890][INFO]: [8bab241fad0ee136a96cb5a0f45cdd18] RESPONSE Navigate
+[1672908592.099][INFO]: [8bab241fad0ee136a96cb5a0f45cdd18] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"currency-exchange-app\"]/div/div/div[2]/div[1]/form/div[3]/input"
+}
+[1672908592.100][INFO]: Waiting for pending navigations...
+[1672908592.101][INFO]: Done waiting for pending navigations. Status: ok
+[1672908592.117][INFO]: Waiting for pending navigations...
+[1672908592.118][INFO]: Done waiting for pending navigations. Status: ok
+[1672908592.118][INFO]: [8bab241fad0ee136a96cb5a0f45cdd18] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "5d57a764-ff1c-4445-b0cc-a6f4e0a659e2"
+}
+[1672908592.129][INFO]: [8bab241fad0ee136a96cb5a0f45cdd18] COMMAND TypeElement {
+   "id": "5d57a764-ff1c-4445-b0cc-a6f4e0a659e2",
+   "text": "400",
+   "value": [ "4", "0", "0" ]
+}
+[1672908592.129][INFO]: Waiting for pending navigations...
+[1672908592.130][INFO]: Done waiting for pending navigations. Status: ok
+[1672908592.256][INFO]: Waiting for pending navigations...
+[1672908592.265][INFO]: Done waiting for pending navigations. Status: ok
+[1672908592.266][INFO]: [8bab241fad0ee136a96cb5a0f45cdd18] RESPONSE TypeElement
+[1672908592.364][INFO]: [8bab241fad0ee136a96cb5a0f45cdd18] COMMAND Quit {
+}
+[1672908592.586][INFO]: [8bab241fad0ee136a96cb5a0f45cdd18] RESPONSE Quit

@@ -1,0 +1,371 @@
+[1672909253.212][INFO]: Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 15870
+[1672909253.212][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1672909253.786][INFO]: [b9c85e073b2afcede84e144275935832] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\IMamulashvili\\Desktop\\calculator\\calculator\\build\\downloads\\1672909251301_23068_1",
+               "plugins.always_open_pdf_externally": true,
+               "profile.default_content_setting_values.automatic_downloads": 1
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\IMamulashvili\\Desktop\\calculator\\calculator\\build\\downloads\\1672909251301_23068_1",
+            "plugins.always_open_pdf_externally": true,
+            "profile.default_content_setting_values.automatic_downloads": 1
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1672909253.907][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\IMamulashvili\\Desktop\\calculator\\calculator\\build\\downloads\\1672909251301_23068_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "automatic_downloads": 1,
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1672909253.912][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1672909253.930][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\IMAMUL~1\AppData\Local\Temp\scoped_dir18176_534061145" data:,
+[1672909260.202][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1672909272.717][INFO]: [b9c85e073b2afcede84e144275935832] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "108.0.5359.125",
+      "chrome": {
+         "chromedriverVersion": "108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016})",
+         "userDataDir": "C:\\Users\\IMAMUL~1\\AppData\\Local\\Temp\\scoped_dir18176_534061145"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:51344"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "b9c85e073b2afcede84e144275935832"
+}
+[1672909272.810][INFO]: [b9c85e073b2afcede84e144275935832] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1672909272.811][INFO]: Waiting for pending navigations...
+[1672909272.812][INFO]: Done waiting for pending navigations. Status: ok
+[1672909272.927][INFO]: Waiting for pending navigations...
+[1672909272.928][INFO]: Done waiting for pending navigations. Status: ok
+[1672909272.928][INFO]: [b9c85e073b2afcede84e144275935832] RESPONSE SetWindowRect {
+   "height": 738,
+   "width": 1298,
+   "x": 10,
+   "y": 10
+}
+[1672909272.936][INFO]: [b9c85e073b2afcede84e144275935832] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1672909272.936][INFO]: [b9c85e073b2afcede84e144275935832] RESPONSE SetTimeouts
+[1672909272.946][INFO]: [b9c85e073b2afcede84e144275935832] COMMAND Navigate {
+   "url": "https://www.paysera.bg/v2/en-LT/fees/currency-conversion-calculator"
+}
+[1672909272.946][INFO]: Waiting for pending navigations...
+[1672909272.948][INFO]: Done waiting for pending navigations. Status: ok
+[1672909284.694][INFO]: Waiting for pending navigations...
+[1672909300.932][INFO]: Done waiting for pending navigations. Status: ok
+[1672909300.932][INFO]: [b9c85e073b2afcede84e144275935832] RESPONSE Navigate
+[1672909301.171][INFO]: [b9c85e073b2afcede84e144275935832] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-ng-model = 'currencyExchangeVM.filter.to_amount']"
+}
+[1672909301.171][INFO]: Waiting for pending navigations...
+[1672909301.172][INFO]: Done waiting for pending navigations. Status: ok
+[1672909301.185][INFO]: Waiting for pending navigations...
+[1672909301.186][INFO]: Done waiting for pending navigations. Status: ok
+[1672909301.186][INFO]: [b9c85e073b2afcede84e144275935832] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-ng-model = 'currencyExchangeVM.filter.to_amount']"}
+  (Session info: chrome=108.0.5359.125)
+[1672909301.414][INFO]: [b9c85e073b2afcede84e144275935832] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-ng-model = 'currencyExchangeVM.filter.to_amount']"
+}
+[1672909301.414][INFO]: Waiting for pending navigations...
+[1672909301.415][INFO]: Done waiting for pending navigations. Status: ok
+[1672909301.422][INFO]: Waiting for pending navigations...
+[1672909301.423][INFO]: Done waiting for pending navigations. Status: ok
+[1672909301.423][INFO]: [b9c85e073b2afcede84e144275935832] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-ng-model = 'currencyExchangeVM.filter.to_amount']"}
+  (Session info: chrome=108.0.5359.125)
+[1672909301.644][INFO]: [b9c85e073b2afcede84e144275935832] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-ng-model = 'currencyExchangeVM.filter.to_amount']"
+}
+[1672909301.645][INFO]: Waiting for pending navigations...
+[1672909301.645][INFO]: Done waiting for pending navigations. Status: ok
+[1672909301.652][INFO]: Waiting for pending navigations...
+[1672909301.652][INFO]: Done waiting for pending navigations. Status: ok
+[1672909301.652][INFO]: [b9c85e073b2afcede84e144275935832] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-ng-model = 'currencyExchangeVM.filter.to_amount']"}
+  (Session info: chrome=108.0.5359.125)
+[1672909301.862][INFO]: [b9c85e073b2afcede84e144275935832] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-ng-model = 'currencyExchangeVM.filter.to_amount']"
+}
+[1672909301.862][INFO]: Waiting for pending navigations...
+[1672909301.863][INFO]: Done waiting for pending navigations. Status: ok
+[1672909301.875][INFO]: Waiting for pending navigations...
+[1672909301.876][INFO]: Done waiting for pending navigations. Status: ok
+[1672909301.876][INFO]: [b9c85e073b2afcede84e144275935832] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-ng-model = 'currencyExchangeVM.filter.to_amount']"}
+  (Session info: chrome=108.0.5359.125)
+[1672909302.094][INFO]: [b9c85e073b2afcede84e144275935832] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-ng-model = 'currencyExchangeVM.filter.to_amount']"
+}
+[1672909302.094][INFO]: Waiting for pending navigations...
+[1672909302.095][INFO]: Done waiting for pending navigations. Status: ok
+[1672909302.104][INFO]: Waiting for pending navigations...
+[1672909302.105][INFO]: Done waiting for pending navigations. Status: ok
+[1672909302.105][INFO]: [b9c85e073b2afcede84e144275935832] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-ng-model = 'currencyExchangeVM.filter.to_amount']"}
+  (Session info: chrome=108.0.5359.125)
+[1672909302.321][INFO]: [b9c85e073b2afcede84e144275935832] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-ng-model = 'currencyExchangeVM.filter.to_amount']"
+}
+[1672909302.321][INFO]: Waiting for pending navigations...
+[1672909302.322][INFO]: Done waiting for pending navigations. Status: ok
+[1672909302.329][INFO]: Waiting for pending navigations...
+[1672909302.329][INFO]: Done waiting for pending navigations. Status: ok
+[1672909302.330][INFO]: [b9c85e073b2afcede84e144275935832] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-ng-model = 'currencyExchangeVM.filter.to_amount']"}
+  (Session info: chrome=108.0.5359.125)
+[1672909302.536][INFO]: [b9c85e073b2afcede84e144275935832] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-ng-model = 'currencyExchangeVM.filter.to_amount']"
+}
+[1672909302.537][INFO]: Waiting for pending navigations...
+[1672909302.537][INFO]: Done waiting for pending navigations. Status: ok
+[1672909302.545][INFO]: Waiting for pending navigations...
+[1672909302.546][INFO]: Done waiting for pending navigations. Status: ok
+[1672909302.546][INFO]: [b9c85e073b2afcede84e144275935832] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-ng-model = 'currencyExchangeVM.filter.to_amount']"}
+  (Session info: chrome=108.0.5359.125)
+[1672909302.768][INFO]: [b9c85e073b2afcede84e144275935832] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-ng-model = 'currencyExchangeVM.filter.to_amount']"
+}
+[1672909302.769][INFO]: Waiting for pending navigations...
+[1672909302.771][INFO]: Done waiting for pending navigations. Status: ok
+[1672909302.774][INFO]: Waiting for pending navigations...
+[1672909302.775][INFO]: Done waiting for pending navigations. Status: ok
+[1672909302.775][INFO]: [b9c85e073b2afcede84e144275935832] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-ng-model = 'currencyExchangeVM.filter.to_amount']"}
+  (Session info: chrome=108.0.5359.125)
+[1672909302.985][INFO]: [b9c85e073b2afcede84e144275935832] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-ng-model = 'currencyExchangeVM.filter.to_amount']"
+}
+[1672909302.985][INFO]: Waiting for pending navigations...
+[1672909302.986][INFO]: Done waiting for pending navigations. Status: ok
+[1672909302.990][INFO]: Waiting for pending navigations...
+[1672909302.990][INFO]: Done waiting for pending navigations. Status: ok
+[1672909302.990][INFO]: [b9c85e073b2afcede84e144275935832] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-ng-model = 'currencyExchangeVM.filter.to_amount']"}
+  (Session info: chrome=108.0.5359.125)
+[1672909303.203][INFO]: [b9c85e073b2afcede84e144275935832] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-ng-model = 'currencyExchangeVM.filter.to_amount']"
+}
+[1672909303.227][INFO]: Waiting for pending navigations...
+[1672909303.228][INFO]: Done waiting for pending navigations. Status: ok
+[1672909303.236][INFO]: Waiting for pending navigations...
+[1672909303.237][INFO]: Done waiting for pending navigations. Status: ok
+[1672909303.237][INFO]: [b9c85e073b2afcede84e144275935832] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-ng-model = 'currencyExchangeVM.filter.to_amount']"}
+  (Session info: chrome=108.0.5359.125)
+[1672909303.451][INFO]: [b9c85e073b2afcede84e144275935832] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-ng-model = 'currencyExchangeVM.filter.to_amount']"
+}
+[1672909303.451][INFO]: Waiting for pending navigations...
+[1672909303.453][INFO]: Done waiting for pending navigations. Status: ok
+[1672909303.468][INFO]: Waiting for pending navigations...
+[1672909303.468][INFO]: Done waiting for pending navigations. Status: ok
+[1672909303.468][INFO]: [b9c85e073b2afcede84e144275935832] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-ng-model = 'currencyExchangeVM.filter.to_amount']"}
+  (Session info: chrome=108.0.5359.125)
+[1672909303.680][INFO]: [b9c85e073b2afcede84e144275935832] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-ng-model = 'currencyExchangeVM.filter.to_amount']"
+}
+[1672909303.680][INFO]: Waiting for pending navigations...
+[1672909303.681][INFO]: Done waiting for pending navigations. Status: ok
+[1672909303.687][INFO]: Waiting for pending navigations...
+[1672909303.688][INFO]: Done waiting for pending navigations. Status: ok
+[1672909303.688][INFO]: [b9c85e073b2afcede84e144275935832] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-ng-model = 'currencyExchangeVM.filter.to_amount']"}
+  (Session info: chrome=108.0.5359.125)
+[1672909303.895][INFO]: [b9c85e073b2afcede84e144275935832] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-ng-model = 'currencyExchangeVM.filter.to_amount']"
+}
+[1672909303.895][INFO]: Waiting for pending navigations...
+[1672909303.896][INFO]: Done waiting for pending navigations. Status: ok
+[1672909303.903][INFO]: Waiting for pending navigations...
+[1672909303.904][INFO]: Done waiting for pending navigations. Status: ok
+[1672909303.904][INFO]: [b9c85e073b2afcede84e144275935832] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-ng-model = 'currencyExchangeVM.filter.to_amount']"}
+  (Session info: chrome=108.0.5359.125)
+[1672909304.126][INFO]: [b9c85e073b2afcede84e144275935832] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-ng-model = 'currencyExchangeVM.filter.to_amount']"
+}
+[1672909304.126][INFO]: Waiting for pending navigations...
+[1672909304.127][INFO]: Done waiting for pending navigations. Status: ok
+[1672909304.134][INFO]: Waiting for pending navigations...
+[1672909304.134][INFO]: Done waiting for pending navigations. Status: ok
+[1672909304.134][INFO]: [b9c85e073b2afcede84e144275935832] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-ng-model = 'currencyExchangeVM.filter.to_amount']"}
+  (Session info: chrome=108.0.5359.125)
+[1672909304.354][INFO]: [b9c85e073b2afcede84e144275935832] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-ng-model = 'currencyExchangeVM.filter.to_amount']"
+}
+[1672909304.354][INFO]: Waiting for pending navigations...
+[1672909304.356][INFO]: Done waiting for pending navigations. Status: ok
+[1672909304.362][INFO]: Waiting for pending navigations...
+[1672909304.363][INFO]: Done waiting for pending navigations. Status: ok
+[1672909304.363][INFO]: [b9c85e073b2afcede84e144275935832] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-ng-model = 'currencyExchangeVM.filter.to_amount']"}
+  (Session info: chrome=108.0.5359.125)
+[1672909304.581][INFO]: [b9c85e073b2afcede84e144275935832] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-ng-model = 'currencyExchangeVM.filter.to_amount']"
+}
+[1672909304.581][INFO]: Waiting for pending navigations...
+[1672909304.582][INFO]: Done waiting for pending navigations. Status: ok
+[1672909304.589][INFO]: Waiting for pending navigations...
+[1672909304.590][INFO]: Done waiting for pending navigations. Status: ok
+[1672909304.590][INFO]: [b9c85e073b2afcede84e144275935832] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-ng-model = 'currencyExchangeVM.filter.to_amount']"}
+  (Session info: chrome=108.0.5359.125)
+[1672909304.806][INFO]: [b9c85e073b2afcede84e144275935832] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-ng-model = 'currencyExchangeVM.filter.to_amount']"
+}
+[1672909304.807][INFO]: Waiting for pending navigations...
+[1672909304.807][INFO]: Done waiting for pending navigations. Status: ok
+[1672909304.814][INFO]: Waiting for pending navigations...
+[1672909304.815][INFO]: Done waiting for pending navigations. Status: ok
+[1672909304.815][INFO]: [b9c85e073b2afcede84e144275935832] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-ng-model = 'currencyExchangeVM.filter.to_amount']"}
+  (Session info: chrome=108.0.5359.125)
+[1672909305.025][INFO]: [b9c85e073b2afcede84e144275935832] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-ng-model = 'currencyExchangeVM.filter.to_amount']"
+}
+[1672909305.025][INFO]: Waiting for pending navigations...
+[1672909305.026][INFO]: Done waiting for pending navigations. Status: ok
+[1672909305.032][INFO]: Waiting for pending navigations...
+[1672909305.032][INFO]: Done waiting for pending navigations. Status: ok
+[1672909305.033][INFO]: [b9c85e073b2afcede84e144275935832] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-ng-model = 'currencyExchangeVM.filter.to_amount']"}
+  (Session info: chrome=108.0.5359.125)
+[1672909305.245][INFO]: [b9c85e073b2afcede84e144275935832] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1672909305.245][INFO]: Waiting for pending navigations...
+[1672909305.246][INFO]: Done waiting for pending navigations. Status: ok
+[1672909305.255][INFO]: Waiting for pending navigations...
+[1672909305.256][INFO]: Done waiting for pending navigations. Status: ok
+[1672909305.256][INFO]: [b9c85e073b2afcede84e144275935832] RESPONSE ExecuteScript "\u003Chtml data-settings=\"{&quot;flags&quot;:[]}\" lang=\"en\" class=\"js csstransitions\" data-ng-csp=\"\" data-scroll=\"0\">\u003Chead>\n    \n    \u003Cmeta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n ..."
+[1672909305.330][INFO]: [b9c85e073b2afcede84e144275935832] COMMAND Screenshot {
+}
+[1672909305.330][INFO]: Waiting for pending navigations...
+[1672909305.331][INFO]: Done waiting for pending navigations. Status: ok
+[1672909305.595][INFO]: Waiting for pending navigations...
+[1672909305.596][INFO]: Done waiting for pending navigations. Status: ok
+[1672909305.597][INFO]: [b9c85e073b2afcede84e144275935832] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAAB4UAAAOfCAYAAADPRBXfAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3X1YVPed//9nJHFWiiMsEowQQQk0IF7cuSSYtY5pVnInarN4uampGGLaku4VsNmtSXcj5tokdrf15mo1/SZStSFZf2GNiKaJro1j2EjDisKKksWAaMBI0YUMW..."
+[1672909305.789][INFO]: [b9c85e073b2afcede84e144275935832] COMMAND Quit {
+}
+[1672909305.968][INFO]: [b9c85e073b2afcede84e144275935832] RESPONSE Quit
